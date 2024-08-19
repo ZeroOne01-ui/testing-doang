@@ -21,7 +21,7 @@ app.use(bodyParser.json()); // Menguraikan body request sebagai JSON
 
 // Endpoint root
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages/home.html')); // Mengirimkan file index.html
+    res.sendFile(path.join(__dirname, 'home.html')); // Mengirimkan file index.html
 });
 
 // Endpoint untuk mengirim data ke Telegram
